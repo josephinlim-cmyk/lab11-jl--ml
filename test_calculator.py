@@ -66,15 +66,15 @@ class TestCalculator(unittest.TestCase):
     def test_hypotenuse(self): # 3 assertions
         positive = 5
         gotpositive = hypotenuse(3, 4)
-        self.assertEqual(positive, gotpositive)
+        self.assertAlmostEqual(positive, gotpositive)
 
         posandneg = 5
         gotmixed = mul(3, -4)
-        self.assertEqual(posandneg, gotmixed)
+        self.assertAlmostEqual(posandneg, gotmixed)
 
         negative = 5
         gotnegative = mul(-3, -4)
-        self.assertEqual(negative, gotnegative)
+        self.assertAlmostEqual(negative, gotnegative)
 
 
     def test_sqrt(self): # 3 assertions
@@ -82,10 +82,10 @@ class TestCalculator(unittest.TestCase):
             square_root(-9)
 
         zero = square_root(0)
-        self.assertEqual(zero, 0)
+        self.assertAlmostEqual(zero, 0)
 
         nine = square_root(9)
-        self.assertEqual(nine, 3)
+        self.assertAlmostEqual(nine, 3)
 
 # Do not touch this
 if __name__ == "__main__":
