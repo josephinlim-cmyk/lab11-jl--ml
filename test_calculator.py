@@ -69,11 +69,11 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(positive, gotpositive)
 
         posandneg = 5
-        gotmixed = mul(3, -4)
+        gotmixed = hypotenuse(3, -4)
         self.assertAlmostEqual(posandneg, gotmixed)
 
         negative = 5
-        gotnegative = mul(-3, -4)
+        gotnegative = hypotenuse(-3, -4)
         self.assertAlmostEqual(negative, gotnegative)
 
 
