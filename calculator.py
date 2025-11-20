@@ -1,9 +1,3 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
 #https://github.com/josephinlim-cmyk/lab11-jl--ml
 #Partner 1: Josephine Lim
 #Partner 2: Miaohan Lin
