@@ -1,3 +1,5 @@
+import math
+=======
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -30,6 +32,3 @@ def logarithm(a, b):
     return math.log(b, a)
 def exponent(a, b):
     return a**b
-
-
-
